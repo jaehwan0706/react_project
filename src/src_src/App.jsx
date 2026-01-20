@@ -29,7 +29,7 @@ export default function App() {
   const handleCreate = (text, file) => {
     let imageUrl = null;
     if (file) {
-      // create object URL for local preview/storage in this demo
+      //이미지 파일이 있으면 URL 생성
       imageUrl = URL.createObjectURL(file);
     }
 
